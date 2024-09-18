@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+    position: relative;
+}
+
+.key{
+    border: 2px solid black;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+}
+
+.white-key{
+width: 80px;
+height: 240px;
+background-color: white;
+font-size: 10px;
+color: black;
+}
+
+.black-key{
+    width: 30px;
+    height: 140px;
+    background-color: black;
+    color: yellow;
+    position: absolute;
+    left: 65px;
+   font-size: 10px;
+}
+
+[data-note='C#4']{
+    left: 65px;
+}
+[data-note='D#4']{
+    left: 150px;
+}
+[data-note='F#4']{
+    left: 318px;
+}
+[data-note='G#4']{
+    left: 403px;
+}
+[data-note='A#4']{
+    left: 486px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, pink, white);
+    color: transparent;
+    background-clip: text;
+}
+
